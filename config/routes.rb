@@ -1,4 +1,6 @@
 MiniFolio::Application.routes.draw do
+  resources :portfolios
+
   resources :users
 
   # The priority is based upon order of creation:
